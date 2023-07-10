@@ -1,0 +1,66 @@
+name: student_clearance_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.1
+  cached_network_image: ^3.2.3
+  flutter_svg: ^2.0.6
+  font_awesome_flutter: ^10.4.0
+  firebase_core: ^2.13.1
+  cloud_firestore: ^4.8.0
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+    - family: Saira Stencil One
+      fonts: 
+        - asset: assets/fonts/SairaStencilOneRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Sanchez
+      fonts: 
+        - asset: assets/fonts/SanchezRegular.ttf
+          weight: 400
+
+  
